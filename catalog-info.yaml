@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo_breeding"
+  description: "new trial doc "
+  annotations:
+    github.com/project-slug: Bayer/breeding-dataform-velocity-docs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/libin-mathew8"
